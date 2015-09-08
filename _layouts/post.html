@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <div class="date">
-    编写于 {{ page.date | date: "%Y-%M-%D HH:MM:SS" }}
+    编写于 {{ page.date | date_to_xmlschema }}
   </div>
 
   {% include disqus.html %}
