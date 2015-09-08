@@ -1,21 +1,21 @@
 #
-# This file contains configuration flags to customize your site
+# 这个是你的博客的基本配置文件
 #
 
-# Name of your site (displayed in the header)
+# 站点名称 (显示在顶部)
 name: 喵♂呜的博客
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# 简短的描述 (显示在顶部)
+description: 
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# 头像地址 (你可以使用GitHub的头像)
 avatar: https://avatars2.githubusercontent.com/u/10203793
 
 #
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
+# 输入您的联系方式 将会显示链接在底部
 footer-links:
   dribbble:
   email: jtb1@163.com
@@ -43,14 +43,14 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: http://citycraft.cn
 
-# If you're hosting your site at a Project repository on GitHub pages
+# 如果你的站点不是在Github.io的根目录请输入源名称
 # (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# 不是根地址 (http://yourusername.github.io)
+# 而是源项目的名称, 示例: "/repository-name"
 baseurl: "/blog"
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# !! 一般来说你不需要修改下面选项 !!
 #
 
 markdown: redcarpet
