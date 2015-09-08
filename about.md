@@ -1,15 +1,18 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 关于
+permalink: /关于/
 ---
 
-Some information about you!
+关于博主的更多信息!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jtb1@163.com](mailto:jtb1@163.com)
+Q Q : 502647092
+手机: 18868595911
+[主页](http://CityCraft.cn)
