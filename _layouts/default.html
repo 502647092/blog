@@ -7,31 +7,11 @@
 <![endif]-->
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body>
-	<!-- Fixed navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-				</button>
-				<a href="{{ site.baseurl }}"> <img src="{{ site.avatar }}" width="50" height="50" /></a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="/">主页</a></li>
-					<li><a href="http://ci.citycraft.cn:8800/jenkins">Jenkins</a></li>
-					<li><a href="{{ site.baseurl }}/">博客</a></li>
-					<li><a href="{{ site.baseurl }}/about">关于</a></li>
-				</ul>
-			</div>
-		</div>
-		<!--/.nav-collapse -->
-	</nav>
-	<div style="height: 60px;"></div>
+	{% include nav.html %}
 	<div id="main" role="main" class="container">{{ content }}</div>
 	<div class="wrapper-footer">
 		<div class="container">
@@ -40,7 +20,7 @@
 	</div>
 	{% include analytics.html %}
 	<!-- /container -->
-	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.js"></script>
-	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+	<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
