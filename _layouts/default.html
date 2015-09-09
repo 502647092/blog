@@ -13,12 +13,7 @@
 <body>
 	{% include nav.html %}
 	<div id="main" role="main" class="container">{{ content }}</div>
-	<div class="wrapper-footer">
-		<div class="container">
-			<footer class="footer"> {% include svg-icons.html %} </footer>
-		</div>
-	</div>
-	{% include analytics.html %}
+	{% include foot.html %}
 	<!-- /container -->
 	<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
 	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
