@@ -49,6 +49,9 @@ url: http://citycraft.cn
 # 而是源项目的名称, 示例: "/repository-name"
 baseurl: "/blog"
 
+# 服务器模版页
+master: "bootstrap.html"
+
 #
 # !! 一般来说你不需要修改下面选项 !!
 #
