@@ -8,11 +8,8 @@
 			<a href="{{ site.baseurl }}"> <img src="{{ site.avatar }}" width="50" height="50" /></a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="/">主页</a></li>
-				<li><a href="http://ci.citycraft.cn:8800/jenkins">Jenkins</a></li>
-				<li><a href="{{ site.baseurl }}/">博客</a></li>
-				<li><a href="{{ site.baseurl }}/about">关于</a></li>
+			<ul class="nav nav-tabs">
+				{% include navlist.html %}
 			</ul>
 		</div>
 	</div>
