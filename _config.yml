@@ -50,7 +50,7 @@ url: http://citycraft.cn
 baseurl: "/blog"
 
 # 服务器模版页
-master: bootstrap.html
+master: bootstrap
 
 #
 # !! 一般来说你不需要修改下面选项 !!
