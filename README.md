@@ -12,8 +12,6 @@
 
 In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
-
 ## Quick Start
 
 ### Step 1) Fork Jekyll Now to your User Repository
@@ -21,8 +19,6 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 Fork this repo, then rename the repository to yourgithubusername.github.io.
 
 Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
-
-![Step 1](/images/step1.gif "Step 1")
 
 ### Step 2) Customize and view your site
 
@@ -35,8 +31,6 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 > 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
 > 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
 > 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
-
-![_config.yml](/images/config.png "_config.yml")
 
 ### Step 3) Publish your first blog post
 
