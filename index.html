@@ -1,20 +1,18 @@
 ---  
 layout: default  
 ---  
- 
-<div>
-	{% include boardcase.html %}
-</div>
+
+{% include boardcase.html %}
 <div class="posts">
-	{% for post in site.posts %}
-		<article class="post">
-			<h3>
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-			</h3>
-			<div class="entry">{{ post.excerpt }}</div>
-			<div class="text-right">
-				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more text-left">查看全部</a>
-			</div>
-		</article>
-	{% endfor %}
+  {% for post in site.posts %}
+    <article class="post">
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <div class="entry">{{ post.excerpt }}</div>
+        <div class="text-right">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more text-left">查看全部</a>
+        </div>
+      </article>
+  {% endfor %}
 </div>
