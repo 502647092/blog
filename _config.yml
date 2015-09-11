@@ -11,9 +11,22 @@ description:
 # 头像地址 (你可以使用GitHub的头像)
 avatar: https://avatars2.githubusercontent.com/u/10203793
 
-#
-# Flags below are optional
-#
+# 站点基础配置
+# 你的网站地址 (例如. http://502647092.github.io 或者 http://CityCraft.cn)
+# 用于生产 Sitemap.xml 和 你的 RSS feed
+url: http://citycraft.cn
+
+# 如果你的站点不是在Github.io的根目录请输入源名称
+# (http://yourusername.github.io/repository-name)
+# 不是根地址 (http://yourusername.github.io)
+# 而是源项目的名称, 示例: "/repository-name"
+baseurl: "/blog"
+
+# 站点分页配置
+# 分页数量
+paginate: 5
+# 分页地址
+paginate_path: "/page:num"
 
 # 输入您的联系方式 将会显示链接在底部
 footer-links:
@@ -31,23 +44,13 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-
+# 评论配置区域
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: 502647092
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://citycraft.cn
-
-# 如果你的站点不是在Github.io的根目录请输入源名称
-# (http://yourusername.github.io/repository-name)
-# 不是根地址 (http://yourusername.github.io)
-# 而是源项目的名称, 示例: "/repository-name"
-baseurl: "/blog"
+changyan: 
+  appid: 
+  add: 
 
 #
 # !! 一般来说你不需要修改下面选项 !!
