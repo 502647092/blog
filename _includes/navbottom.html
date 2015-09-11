@@ -1,5 +1,18 @@
 <nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  {% include boardcase.html %}
-  </div>
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarbottom" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">切换导航</span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span>
+			</button>
+			<span>友情链接: </span>
+		</div>
+		<div id="navbarbottom" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+			{% include friendlylink.html %}
+			</ul>
+		</div>
+	</div>
 </nav>
