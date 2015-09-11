@@ -1,0 +1,16 @@
+<div class="jumbotron well text-center">
+  <h1>
+	 {% if site.displayname %}
+	   {{ site.displayname }}
+	 {% else %}
+       {{ site.name }}
+	 {% endif %} 
+  </h1>
+  <p class="lead">
+   {% if site.displaydescription %}
+     {{ site.displaydescription }}
+   {% else %}
+       {{ site.description }}
+   {% endif %} 
+  </p>
+</div>

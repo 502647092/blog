@@ -4,9 +4,13 @@
 
 # 站点名称 (显示在顶部)
 name: 喵♂呜的博客
-
 # 简短的描述 (显示在顶部)
 description: 
+
+# 站点名称 (显示在banner 不填则显示name)
+displayname: 爱抵流年
+# 站点描述 (显示在banner)
+displaydescription: 
 
 # 头像地址 (你可以使用GitHub的头像)
 avatar: https://avatars2.githubusercontent.com/u/10203793
