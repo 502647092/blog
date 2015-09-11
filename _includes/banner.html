@@ -1,19 +1,18 @@
-<div class="jumbotron text-center" 
-style="background:url({{ site.baseurl }}/images/darkcat.jpg);
-      background-repeat: no-repeat;
-      background-position: center;">
-  <h1>
-	 {% if site.displayname %}
-	   {{ site.displayname }}
-	 {% else %}
-       {{ site.name }}
-	 {% endif %} 
-  </h1>
-  <p class="lead">
-   {% if site.displaydescription %}
-     {{ site.displaydescription }}
-   {% else %}
-       {{ site.description }}
-   {% endif %} 
-  </p>
+<div class="container">
+  <div class="jumbotron text-center"
+    style="background: url({{ site.baseurl }}/images/background.jpg); background-repeat: no-repeat; background-position: center;">
+    <h1>
+      {% if site.displayname %} 
+        {{ site.displayname }} 
+      {% else %} 
+        {{ site.name }} 
+      {% endif %}
+    </h1>
+    <p class="lead">
+    {% if site.displaydescription %} 
+      {{ site.displaydescription }} 
+    {% else %} 
+      {{ site.description }} 
+    {% endif %}</p>
+  </div>
 </div>
