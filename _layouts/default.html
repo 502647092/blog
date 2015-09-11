@@ -20,14 +20,10 @@
 </head>
 <body>
   {% include navtop.html %}
-  {% include banner.html %}
   <div id="row">
     <div id="left" class="container"></div>
     <div id="main" role="main" class="container">{{ content }}</div>
-    <div id="right" class="container">
-        <!-- 公告部分 -->
-        {% include boardcase.html %}
-    </div>
+    <div id="right" class="container"></div>
   </div>
   {% include foot.html %} 
   {% include copyright.html %}
