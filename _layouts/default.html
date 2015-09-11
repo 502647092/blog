@@ -15,18 +15,21 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body>
-	{% include navtop.html %}
-	<div id="main" role="main" class="container">{{ content }}</div>
-	{% include foot.html %} 
-	{% include copyright.html %}
-	<!-- /container -->
-	<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
-	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	{% include navbottom.html %}
+  {% include navtop.html %}
+  <div>
+    <div id="left"></div>
+    <div id="main" role="main" class="container">{{ content }}</div>
+    <div id="right"></div>
+  </div>
+  {% include foot.html %} 
+  {% include copyright.html %}
+  <!-- /container -->
+  <script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  {% include navbottom.html %}
 </body>
 </html>
