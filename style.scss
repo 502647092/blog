@@ -25,6 +25,11 @@ body {
   padding-bottom: 70px;
 }
 
+#left { float: left; }
+#main { margin:auto; }
+#right { float: right; }
+
+
 .container {
   margin: 0 auto;
   max-width: 740px;
